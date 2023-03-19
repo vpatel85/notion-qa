@@ -17,8 +17,8 @@ chain = VectorDBQAWithSourcesChain.from_llm(llm=OpenAI(temperature=0), vectorsto
 
 
 # From here down is all the StreamLit UI.
-st.set_page_config(page_title="Fueled Notion QA Bot", page_icon=":robot:")
-st.header("Fueled Notion QA Bot")
+st.set_page_config(page_title="Fueled HR Bot", page_icon=":robot:")
+st.header("Fueled HR Bot")
 
 if "generated" not in st.session_state:
     st.session_state["generated"] = []
